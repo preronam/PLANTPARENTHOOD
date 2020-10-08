@@ -9,6 +9,12 @@ module.exports = function (app) {
     // }
     res.render(path.join(__dirname, "../views/index"));
   });
+  app.get("/signup", (req, res) => {
+    // if (req.profile) {
+    //   res.redirect("../views/partials/profile");
+    // }
+    res.render(path.join(__dirname, "../views/partials/signup"));
+  });
 
 //   app.get("/login", (req, res) => {
 //     if (req.profile) {
