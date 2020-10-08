@@ -7,7 +7,7 @@ module.exports = function (app) {
     // if (req.profile) {
     //   res.redirect("../views/partials/profile");
     // }
-    res.sendFile(path.join(__dirname, "../views/index"));
+    res.render(path.join(__dirname, "../views/index"));
   });
 
 //   app.get("/login", (req, res) => {
