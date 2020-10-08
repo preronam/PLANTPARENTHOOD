@@ -19,13 +19,15 @@ module.exports = function (app) {
   // otherwise send back an error
   app.post("/api/signup", (req, res) => {
     db.User.create({
-      // username: req.body.username,
+      memberid: 5,
+      username: "bleh",
       email: req.body.email,
       password: req.body.password,
-      // favorites: req.body.favorites
+      favorites: "blah"
     })
       .then(() => {
-        res.redirect(307, "/api/login");
+        //TODO add working login route!!!!!!
+        res.redirect("/");
       })
       .catch(err => {
         res.status(401).json(err);

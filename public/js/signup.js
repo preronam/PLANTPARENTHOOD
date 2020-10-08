@@ -6,6 +6,8 @@ $(document).ready(() => {
   
     // When the signup button is clicked, we validate the email and password are not blank
     signUpForm.on("submit", event => {
+        console.log("hello")
+
       event.preventDefault();
       const userData = {
         email: emailInput.val().trim(),
@@ -29,7 +31,7 @@ $(document).ready(() => {
         password: password
       })
         .then(() => {
-          window.location.replace("/index");
+          window.location.replace("/");
           // If there's an error, handle it by throwing up a bootstrap alert
         })
         .catch(handleLoginErr);
