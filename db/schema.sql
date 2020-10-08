@@ -3,12 +3,12 @@ USE Plants_db;
 
 CREATE TABLE users
 (
-  memberid int NOT NULL,
+  id int NOT NULL AUTO_INCREMENT,
   username varchar(255) NOT NULL,
   email varchar(320) NOT NULL,
   password varchar(255) NOT NULL,
   favorites varchar (255) NOT NULL,
-  PRIMARY KEY (memberid)
+  PRIMARY KEY (id)
 );
 
 CREATE TABLE plants
