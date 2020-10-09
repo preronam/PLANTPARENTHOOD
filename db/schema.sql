@@ -17,6 +17,7 @@ CREATE TABLE plants
   Common_Name varchar(255) NOT NULL,
   Scientific_Name varchar(255) NOT NULL,
   Sunlight_Needs varchar (255) NOT NULL,
+  Water_Needs varchar (255) NOT NULL,
   Moisture_Levels varchar (255) NOT NULL,
   Toxic BOOLEAN default false, 
   Maintenance_Level varchar (255) NOT NULL,
