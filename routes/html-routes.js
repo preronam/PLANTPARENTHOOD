@@ -15,11 +15,10 @@ module.exports = function (app) {
     // }
     res.render(path.join(__dirname, "../views/partials/signup"));
   });
-  
+
   app.get("/search", (req, res) => {
     res.render(path.join(__dirname, "../views/partials/search"));
   });
-
 
   app.get("/results", (req, res) => {
     res.render(path.join(__dirname, "../views/partials/results"));
@@ -32,7 +31,7 @@ module.exports = function (app) {
     res.sendFile(path.join(__dirname, "../views/index"));
   });
 
-//   app.get("/../views/partials/profile", isAuthenticated, (req, res) => {
-//     res.sendFile(path.join(__dirname, "../views/members.html"));
-//   });
+  //   app.get("/../views/partials/profile", isAuthenticated, (req, res) => {
+  //     res.sendFile(path.join(__dirname, "../views/members.html"));
+  //   });
 };

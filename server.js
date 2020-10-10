@@ -3,8 +3,20 @@
 var express = require("express");
 var session = require("express-session");
 var exphbs = require("express-handlebars");
-var handlebars = require("handlebars-form-helpers");
+var HandlebarsFormHelpers = require("handlebars-form-helpers");
 var passport = require("./config/passport");
+
+const hbs = exphbs.create({
+  defaultLayout: 'app',
+  extname: '.hbs',
+  layoutsDir: `${__dirname}/app/views/layouts/`,
+  partialsDir: `${__dirname}/app/views/partials/`,
+});
+
+// Call the registerHelper and pass in the handlebars object
+HandlebarsFormHelpers.register(hbs.handlebars, { namespace: 'form' });
+
+
 // Sets up the Express App
 // =============================================================
 var app = express();
@@ -18,6 +30,7 @@ app.use(express.json());
 
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
+
 // Static directory to be served
 app.use(express.static("./public"));
 app.use(
@@ -36,9 +49,9 @@ require("./controllers/api-plants")(app);
 require("./routes/html-routes")(app);
 
 //Syncing sequelize models and then starting the Express app//
-db.sequelize.sync({ force: true }).then(function() {
-  app.listen(PORT, function() {
-    console.log("App listening on PORT 3306" + PORT);
+db.sequelize.sync({ force: true }).then(function () {
+  app.listen(PORT, function () {
+    console.log("App listening on PORT " + PORT);
   });
 });
 
