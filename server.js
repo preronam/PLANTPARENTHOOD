@@ -1,9 +1,10 @@
 //Dependencies
 // =============================================================
 var express = require("express");
-const session = require("express-session");
+var session = require("express-session");
 var exphbs = require("express-handlebars");
-const passport = require("./config/passport");
+var handlebars = require("handlebars-form-helpers");
+var passport = require("./config/passport");
 // Sets up the Express App
 // =============================================================
 var app = express();
@@ -25,17 +26,19 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 
+//Controllers//
+require("./controllers/api-routes")(app);
+require("./controllers/api-plants")(app);
+
 // Routes
-// =============================================================
-require("./routes/api-routes")(app);
 
 // HTML ROUTES
 require("./routes/html-routes")(app);
 
 //Syncing sequelize models and then starting the Express app//
-db.sequelize.sync({ force: true }).then(function () {
-  app.listen(PORT, function () {
-    console.log("App listening on port" + PORT);
+db.sequelize.sync({ force: true }).then(function() {
+  app.listen(PORT, function() {
+    console.log("App listening on PORT 3306" + PORT);
   });
 });
 

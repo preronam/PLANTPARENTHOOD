@@ -1,0 +1,81 @@
+<!-- header-->
+<div class="bg-green-500 p-4 flex justify-between items-center">
+
+    <!-- left side -->
+    <div class="flex items-center">
+        <a href="#" class="inline-block p-2 font-bold text-green-800 hover:text-green-700 mr-2">Plant Parenthood</a>
+        <a href="#" class="inline-block p-2 text-green-800 hover:text-green-700 mr-2">Profile</a>
+        <a href="./results" class="inline-block p-2 text-green-800 hover:text-green-700">Results</a>
+    </div>
+
+    <!--   right side -->
+    <div class="hidden md:block">
+        <a href="#" class="inline-block p-2 text-green-800 hover:text-green-700 mr-2">Login</a>
+        <a href="./signup"
+            class="inline-block py-2 px-4 text-yellow-700 bg-yellow-400 hover:bg-yellow-300 hover:text-yellow-800 rounded transition ease-in duration-150">Sign
+            Up</a>
+    </div>
+
+</div>
+
+    <div id="form-container" class="container"></div>
+
+    <script type="text/html" id="form-template">
+
+    <input type="checkbox" id="sunlight" name="exposure" />
+    <div class="sunlight">
+        {{label_validation '' "Direct exposure to sunlight" errors class="control-label"}}
+        <div class="controls">
+            {{#label}}
+            {{radio_validation 'has_direct' 'yes' person.has_direct errors}}
+            Yes
+            {{/label}}
+            {{#label}}
+            {{radio_validation 'has_direct' 'no' person.has_direct errors}}
+            No
+            {{/label}}
+            {{field_errors 'has_direct' errors class="help-block text-error"}}
+        </div>
+    </div>
+    
+     <input  type="checkbox" id="children" name="children" />
+    {{label_validation '' "Children" errors class="control-label"}}
+    <div class="children">
+        {{#label}}
+        {{radio_validation 'has_children' 'yes' person.has_children errors}}
+        Yes
+        {{/label}}
+        {{#label}}
+        {{radio_validation 'has_children' 'no' person.has_children errors}}
+        No
+        {{/label}}
+        {{field_errors 'has_children' errors class="help-block text-error"}}
+    </div>
+    </div>
+
+
+     <input type="checkbox" id="pets" name="pets" />
+    {{label_validation '' " Pets" errors class="control-label"}}
+    <div class="pets">
+        {{#label}}
+        {{radio_validation 'has_pets' 'yes' person.has_pets errors}}
+        Yes
+        {{/label}}
+        {{#label}}
+        {{radio_validation 'has_pets' 'no' person.has_children errors}}
+        No
+        {{/label}}
+        {{field_errors 'has_pets' errors class="help-block text-error"}}     
+    </div>
+    </div>
+     <div class="control-group">
+                <div class="form-actions">
+                    {{submit 'save' 'Save details' class="btn btn-primary"}}
+                </div>
+            </div>
+        {{/form}}
+    </script>
+
+    <script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../../public/js/search.js"></script>
