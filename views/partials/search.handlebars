@@ -18,9 +18,10 @@
 
 </div>
 
-    <div id="form-container" class="container"></div>
+<div id="form-container" class="container"></div>
 
-    <script type="text/html" id="form-template">
+<script type="text/html" id="form-template">
+    {{#form url class="form-horizontal" id="search-form"}}
 
     <input type="checkbox" id="sunlight" name="exposure" />
     <div class="sunlight">
@@ -67,15 +68,16 @@
         {{/label}}
         {{field_errors 'has_pets' errors class="help-block text-error"}}     
     </div>
-    </div>
      <div class="control-group">
                 <div class="form-actions">
                     {{submit 'save' 'Save details' class="btn btn-primary"}}
                 </div>
             </div>
+
         {{/form}}
     </script>
 
-    <script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="../../public/js/search.js"></script>
+
+<script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="../../public/js/search.js"></script>
