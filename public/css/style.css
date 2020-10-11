@@ -55,3 +55,8 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+#index-buttons{
+  display: flex;
+  justify-content: center;
+}
