@@ -26,12 +26,12 @@ module.exports = function (app) {
 
   app.get("/login", (req, res) => {
     if (req.profile) {
-      res.redirect("/../views/partials/profile ");
+      res.redirect("/profile");
     }
-    res.sendFile(path.join(__dirname, "../views/index"));
+    res.render(path.join(__dirname, "../views/partials/login"));
   });
 
-  //   app.get("/../views/partials/profile", isAuthenticated, (req, res) => {
-  //     res.sendFile(path.join(__dirname, "../views/members.html"));
-  //   });
+    app.get("/profile", isAuthenticated, (req, res) => {
+      res.render(path.join(__dirname, "../views/partials/profile"));
+    });
 };
