@@ -31,7 +31,12 @@ module.exports = function (app) {
     res.render(path.join(__dirname, "../views/login"));
   });
 
-    app.get("/profile", isAuthenticated, (req, res) => {
-      res.render(path.join(__dirname, "../views/profile"));
+// gardens route
+  app.get("/gardens", isAuthenticated, (req, res) => {
+    res.render(path.join(__dirname, "../views/partials/garden"));
+   });
+
+  app.get("/profile", isAuthenticated, (req, res) => {
+    res.render(path.join(__dirname, "../views/profile"));
     });
 };

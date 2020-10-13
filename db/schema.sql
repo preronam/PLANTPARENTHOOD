@@ -22,7 +22,7 @@ CREATE TABLE plants
   Toxic BOOLEAN default false, 
   Maintenance_Level varchar (255) NOT NULL,
   Affordability varchar (255) NOT NULL,
-  Special varcar (255),
+  Special varchar (255),
   img_path varchar (1024),
   PRIMARY KEY (id)
 );
