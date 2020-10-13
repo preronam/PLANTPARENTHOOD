@@ -1,11 +1,7 @@
 {
   "development": {
     "username": "root",
-<<<<<<< HEAD
     "password": "NewStorkCity9@",
-=======
-    "password": null,
->>>>>>> 14735aea13448649624454d0b595b69164e0d0ab
     "database": "plants_db",
     "host": "127.0.0.1",
     "port": "3306",
