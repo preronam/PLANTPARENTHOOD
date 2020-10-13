@@ -26,7 +26,7 @@ module.exports = function (app) {
     })
       .then(() => {
         //TODO add working login route!!!!!!
-        res.redirect("/");
+        res.redirect("/login");
       })
       .catch(err => {
         res.status(401).json(err);
