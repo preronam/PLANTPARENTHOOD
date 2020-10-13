@@ -1,83 +1,133 @@
-<!-- header-->
-<div class="bg-green-500 p-4 flex justify-between items-center">
+<!-- Parallax Template  -->
+<nav class="teal lighten-2" role="navigation">
+    <div class="nav-wrapper container">
+        <a id="logo-container" href="/" class="brand-logo white-text">PlantParenthood</a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="#">Navbar Link</a></li>
+            <li><a href="./search">Search for a Plant</a></li>
+            <li><a href="./signup">Sign Up</a></li>
+            <li><a href="./login">Login</a></li>
+        </ul>
 
-    <!-- left side -->
-    <div class="flex items-center">
-        <a href="#" class="inline-block p-2 font-bold text-green-800 hover:text-green-700 mr-2">Plant Parenthood</a>
-        <a href="#" class="inline-block p-2 text-green-800 hover:text-green-700 mr-2">Profile</a>
-        <a href="./results" class="inline-block p-2 text-green-800 hover:text-green-700">Results</a>
+        <ul id="nav-mobile" class="sidenav nav-side">
+            <li><a href="#">Navbar Link</a></li>
+            <li><a href="./search">Search for a Plant</a></li>
+            <li><a href="./signup">Sign Up</a></li>
+            <li><a href="./login">Login</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
+</nav>
 
-    <!--   right side -->
-    <div class="hidden md:block">
-        <a href="#" class="inline-block p-2 text-green-800 hover:text-green-700 mr-2">Login</a>
-        <a href="./signup"
-            class="inline-block py-2 px-4 text-yellow-700 bg-yellow-400 hover:bg-yellow-300 hover:text-yellow-800 rounded transition ease-in duration-150">Sign
-            Up</a>
-    </div>
-
-</div>
-
-<div id="form-container" class="container"></div>
-
-<script type="text/html" id="form-template">
-    {{#form url class="form-horizontal" id="search-form"}}
-
-    <input type="checkbox" id="sunlight" name="exposure" />
-    <div class="sunlight">
-        {{label_validation '' "Direct exposure to sunlight" errors class="control-label"}}
-        <div class="controls">
-            {{#label}}
-            {{radio_validation 'has_direct' 'yes' person.has_direct errors}}
-            Yes
-            {{/label}}
-            {{#label}}
-            {{radio_validation 'has_direct' 'no' person.has_direct errors}}
-            No
-            {{/label}}
-            {{field_errors 'has_direct' errors class="help-block text-error"}}
+<div id="search">
+    <div class="container">
+        <h1 class="header center green-text text-darken-4" id="header-text">Plant Parenthood</h1>
+        <div class="row center">
+            <h5 class="header col s12 green-text text-darken-4" id="header-text">Find your perfect plant today!</h5>
         </div>
-    </div>
-    
-     <input  type="checkbox" id="children" name="children" />
-    {{label_validation '' "Children" errors class="control-label"}}
-    <div class="children">
-        {{#label}}
-        {{radio_validation 'has_children' 'yes' person.has_children errors}}
-        Yes
-        {{/label}}
-        {{#label}}
-        {{radio_validation 'has_children' 'no' person.has_children errors}}
-        No
-        {{/label}}
-        {{field_errors 'has_children' errors class="help-block text-error"}}
-    </div>
-    </div>
 
-
-     <input type="checkbox" id="pets" name="pets" />
-    {{label_validation '' " Pets" errors class="control-label"}}
-    <div class="pets">
-        {{#label}}
-        {{radio_validation 'has_pets' 'yes' person.has_pets errors}}
-        Yes
-        {{/label}}
-        {{#label}}
-        {{radio_validation 'has_pets' 'no' person.has_children errors}}
-        No
-        {{/label}}
-        {{field_errors 'has_pets' errors class="help-block text-error"}}     
     </div>
-     <div class="control-group">
-                <div class="form-actions">
-                    {{submit 'save' 'Save details' class="btn btn-primary"}}
+    <div class="row">
+        {{!-- Search Explanation --}}
+        <div class="container center">
+            <div class="col 12 m6">
+                <div class="card-panel teal white-text">
+                    <h5>How the Search Works</h5>
+                    <p>In order to find your perfect plant, we first have to find out a bit about you!</p>
+                    <p>Are you looking for a plant for your apartment that doesn't have great light? Make sure to let us
+                        know by checking Low Light. If this is your first plant, maybe start out with something low
+                        maintenance. Have pets or small children? Be sure to check that off to remove
+                        toxic plants from your search results. Do you live somewhere really dry? Let us know by
+                        selecting Low Humidty.</p>
                 </div>
             </div>
+            <div class="col 12 m6">
+                <div class="section">
+                    <!--   Search Critera   -->
+                    <div class="row">
+                        <div class="col 6 search-option z-depth-4">
+                            <select class="browser-default">
+                                <option value="" disabled selected>What kind of sunlight can you provide?</option>
+                                <option value="1">Option 1</option>
+                                <option value="2">Option 2</option>
+                                <option value="3">Option 3</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col 6 search-option z-depth-4">
+                            <select class="browser-default">
+                                <option value="" disabled selected>What level of humidity are you able to provide
+                                </option>
+                                <option value="1">Low</option>
+                                <option value="2">Average</option>
+                                <option value="3">High</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col 6 search-option z-depth-4">
+                            <select class="browser-default">
+                                <option value="" disabled selected>What maintenance level are you comfortable with?
+                                </option>
+                                <option value="1">Low</option>
+                                <option value="2">Medium</option>
+                                <option value="3">High</option>
+                                <option value="4">Any</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col 6 search-option z-depth-4">
+                            <select class="browser-default">
+                                <option value="" disabled selected>Do you have pets?</option>
+                                <option value="1">Yes</option>
+                                <option value="2">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col 6 search-option z-depth-4">
+                            <select class="browser-default">
+                                <option value="" disabled selected>Do you have small children?</option>
+                                <option value="1">Yes</option>
+                                <option value="2">No</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col 6 search-option z-depth-4">
+                            <select class="browser-default">
+                                <option value="" disabled selected>What is your price range?</option>
+                                <option value="1">$</option>
+                                <option value="2">$$</option>
+                                <option value="3">$$$</option>
+                                <option value="4">Any</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-        {{/form}}
-    </script>
 
 
-<script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="../../public/js/search.js"></script>
+
+
+
+
+<footer class="page-footer teal">
+    <div class="footer-copyright"></div>
+    <div class="container">
+        <a class="brown-text text-lighten-3" href="./index">Plant Parenthood</a>
+    </div>
+    </div>
+</footer>
+
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="./materializeJS/materialize.js"></script>
+<script src="./materializeJS/init.js"></script>

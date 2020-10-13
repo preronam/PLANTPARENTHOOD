@@ -11,23 +11,12 @@ nav .brand-logo {
   color: #444;
 }
 
-.header{
-  color: rgb(3, 85, 3);
-  font-weight: bold;
-  font: outline;
-
-}
-
-.btn-large{
-  color: gold;
-}
-
 p {
   line-height: 2rem;
 }
 
 .sidenav-trigger {
-  color: #26a69a;
+  color: #004d40;
 }
 
 .parallax-container {
@@ -40,7 +29,7 @@ p {
     width: 100%;
   }
 
-@media only screen and (max-width : 750px) {
+@media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
@@ -69,5 +58,53 @@ footer.page-footer {
 
 #index-buttons{
   display: flex;
+  justify-content: space-evenly;
+}
+
+#search, #results{
+  background-image: url("../images/greenbg2.jpg");
+  background-attachment: fixed;
+  padding: 30px;
+}
+
+.search-sec{
+  background-color: white;
+}
+
+.search-option{
   justify-content: center;
+}
+
+.result-image{
+  max-height: 100px;
+}
+
+.search-card{
+  margin: auto;
+  width: 50%;
+
+}
+
+.center-container{
+  margin: auto;
+  width: 50%;
+  margin-top: 5px;
+}
+
+.card-panel{
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+#search-results-text{
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#header-text{
+  text-shadow: 2px 2px 4px white;
+}
+
+.nav-side{
+  background-image: url("../images/greennavbg.jpg");
 }
