@@ -27,3 +27,12 @@ CREATE TABLE plants
   PRIMARY KEY (id)
 );
 
+CREATE TABLE favorites
+(
+	id int NOT NULL AUTO_INCREMENT,
+	user_id int,
+	plant_id int,
+	PRIMARY KEY (id),
+	FOREIGN KEY(user_id) REFERENCES users(id),
+	FOREIGN KEY(plant_id) REFERENCES plants(id)
+);
