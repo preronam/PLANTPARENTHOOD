@@ -17,10 +17,37 @@
     <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
   </div>
 </nav>
+
+
 <div class="container">
   <div class="row">
     <div class="col-md-6 col-md-offset-3">
       <h2>Welcome <span class="member-name"></span></h2>
+
+{{! Render the user's name and a list of all their favorites if they exist as well as the buttons below.}}
+
+{{! 
+
+{{!-- depending on the value of the listExists variable --}}
+{{!-- if it’s true then the list will be rendered --}}
+{{!-- if the value is equal to false the list will not be rendered --}}
+
+Pseudocode
+
+{{#if favoritesListExists
+  <ul>
+    {{#each favorite
+    <li>{{this.favoritPlantName</li>
+    {{/each
+  </ul>
+{{/if
+
+}}
+
+      <a class="waves-effect waves-light btn-large">View Searches</a>
+      <a class="waves-effect waves-light btn-large">Favorites</a>
+      <a class="waves-effect waves-light btn-large">Remove</a>
+      <a class="waves-effect waves-light btn-large">Search</a>
     </div>
   </div>
 </div>
