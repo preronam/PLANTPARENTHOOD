@@ -4,15 +4,15 @@ const isAuthenticated = require("../config/middleware/isAuthenticated");
 
 module.exports = function (app) {
   app.get("/", (req, res) => {
-    // if (req.profile) {
-    //   res.redirect("../views/partials/profile");
-    // }
+    if (req.profile) {
+      res.redirect("../views/partials/profile");
+    }
     res.render(path.join(__dirname, "../views/index"));
   });
   app.get("/signup", (req, res) => {
-    // if (req.profile) {
-    //   res.redirect("../views/partials/profile");
-    // }
+    if (req.profile) {
+      res.redirect("../views/partials/profile");
+    }
     res.render(path.join(__dirname, "../views/partials/signup"));
   });
 
