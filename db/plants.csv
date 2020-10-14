@@ -1,0 +1,60 @@
+id, Common_Name, Scientific_Name, Sunlight_Needs, Moisture_Levels, Humidity, Poisonous, Maintenance_Level, Price
+1, Pothos, Epipremnum aureum, Partial Sun, Moist soil, High Humidity, 1, Low, $  
+2, Monstera, Monstera Deliciosa,Partial to Full Sun, Allow soil to dry out between waterings, Average Humidity, 1, High, $$
+3, Rubber Tree, Ficus elastica, Partial to Low Sun, Allow soil to dry out between waterings, Average Humidity, 1, Medium, $$
+4, Spider Plant, Chlorophytum comosum, Partial Sun, Well drained soil, Average Humidity, 0, Low, $$
+5, Bird's Nest Fern, Asplenium nidus, Partial to Low Sun,  Moist soil, Average Humidity, 0, Low, $
+6, Heartleaf Philodendron, Philodendron hederaceum, Partial to Full Sin, Lightly moist soil, Average Humidity, 1, Low, $
+7, Aloe, Aloe rubroviolacea, Partial to Full Sun, Dry soil, Average Humidity, 1, Low, $
+8, Jade, Crassula ovata, Full Sun, Lightly moist soil, Average Humidity, 1 , Medium, $
+9, Mexican Gem Succulent, Echeveria elegans, Partial to Full Sun, Well drained soil, Average Humidity, 1, Low, $
+10, Ghost Echeveria, Echeveria lilacina, Partial to Full Sun, Well drained soil, Average Humidity, 1, Low, $
+11, Snake Plant, Sansevieria trifasciata, Indirect Sun, Allow soil to dry out between waterings, Average Humidity, 1, Low, $$
+12, Moonstone, , Partial to Full Sun, Well drained soil, Average Humidity, 1, Low, $
+13, Prayer Plant, Maranta leuconeura, Indirect Sun, Moist soil, High Humidity, 0, Medium, $$
+14, Swordfern, Nephrolepis exaltata, Partial Sun, Moist Soil, Average Humidity, 0, Low, $
+15, Cattleya Orchid, Cattleya aclandiae, Indirect Sun, Well drained soil, High Humidity, 0, Medium, $$
+16, English Ivy, Hedera helix, Partial to Full Sun, Dryer soil, Average Humidity, 1, Low $
+17, Bishop's Hat Cactus, Astrophytum ornatum, Partial Sun, Dry soil, Low Humidity, 1, Low, $$
+18, Old Lady Cactus, Mammillaria hahniana, Partial Sun, Dry soil, Low Humidity, 1, Low, $
+19, Golden Barrel Cactus, Echi0cactus grusonii, Partial Sun, Dry soil, Low Humidity, 1, Low, $
+20, Angel's Wing Cactus, Opuntia microdasys, Partial Sun, Dry soil, Low Humidity, 1, Low, $
+21, Zebra Plant, Aphelandra squarros, Partial Sun, Moist soil, High Humidity, 0, High, $
+22, Inchplant, Tradescantia zebrina, Partial Sun, Moist soil, Average Humidity, 1, Low, $
+23, Elephant Ear, Colocasia esculenta, Partial to Full Sun, Moist Soil, High Humidity, 1, High, $$
+24, Venus Flytrap, Dionaea muscipula, Bright Indirect Sun, Mpost soil, Average to High Humidity, High, 0, $
+25, Superstar Croton, Codiaeum variegatum, Full Sun, Moist soil, High Humidity, 1, High, $$
+26, Sage, Salvia officinalis, Partial Sun, Allow soil to dry out between waterings, Average Humidity, 0, Medium, $
+27, Rosemary, Rosmainus officinalis, Full Sun, Dryer soil, Average Humidity, 0, Medium, $
+28, Fiddle Leaf Fig, Ficus lyrata, Full Sun, Allow soil to dry out between waterings, High Humidity, 1, High, $$
+29, Calathea Orbifolia, Calathea orbifolia, Bright Indirect Sun, Allow soil to partially dry out beween waterings, High Humidity, 0, Medium, $$
+30, Peacock Plant, Calathea makoyana, Bright Indirect Sun, Allow soil to partially dry out beween waterings, High Humidity, 0, Medium, $$
+31, Pinstripe Plant, Calathea ornata, Bright Indirect Sun, Allow soil to partially dry out beween waterings, High Humidity, 0, Medium, $$
+32, Rattlesnake Plant, Calathea lancifolia, Bright Indirect Sun, Allow soil to partially dry out beween waterings, High Humidity, 0, Medium, $$
+33, Phoenix Orchid, Caymbidium dayanum, Indirect Sun, Well drained soil, High Humidity, 0, Medium, $$
+34, Moth Orchid, Phalae0psis amabilis, Indirect Sun, Well drained soil, High Humidity, 0, Medium, $$
+35, String of Pearls, Senecia rowleyanus, Bright Indirect Sun, Dryer soil, Average Humidity, 0, Low, $
+36, Dutch Clover, Trifolium repens, Partial Sun, Well drained soil, Average Humiidity, 0, Low, $
+37, Common Periwinkle, Vinca mi0r, Partial Sun, Mpost soil, Average Humidity, 1, Medium, $$
+38, Asparagus Fern, Asparagus plumosus, Partial to Full Sun, Allow soil to dry out between waterings, Higher Humidity, 1, Low, $
+39, African violet, Streotocarpus ionanthus, Partial Sun, Moist but well drained soil, Average Humidity, 0, Medium, $
+40, Weeping Fig, Ficus benjamina, Bright Indirect Sun, Moist soil, High Humidity, 1, High, $$
+41, Petra Croton, Codiaeum Variegatum, Full Sun, Moist soil, High Humidity, 1, High, $$
+42, Long Flower Kalanchoe, Kalanchoe longiflora, Bright Indirect Sun, Well drained dryer soil, Average Humidity, 1, Low, $$
+43, Garber Daisy, Gerbera jamesonii, Bright Indirect Sun, Allow to partially dry out between waterings, Average Humidity, 0, Medium, $$
+44, Dwarf Azalea, Rhododendron atlanticum, Bright Indirect Sun, Moist well drained soil, Average Humidity, 1, Medium, $
+45, Peppermint, Mentha piperita, Indirect Sun, Moist soil, High HUmidity, 1, Medium, $
+46, Wax Begonia,  Begonia cucullata, Full Sun, Allow soil to partially dry out between waterings, Low Humidity, 1, Low, $
+47, Umbrella Plant, Schefflera arboricola, Indirect Sun, Allow soil to dry out between waterings, Average Humidity, 1, Low, $
+48, Areca Palm, Dypsis lutescens, Bright Indirect Sun, Moist soil, High Humidity, 0, High, $$
+49, Bamboo Palm, Chamaedorea costaricana, Bright Indirect Sun, Moist soil, High Humidity, 0, Medium, $$
+50, Flamingo Flower, Anthurium scherzerianum, Bright Indirect Sun, Moist but well drained soil, High Humidity, 1, Medium. $$
+51, Zanzibar Gem, Zamioculcas zamiifolia, Bright Indirect Sun, Allow soil to dry out between waterings, Average Humdity, 1, Low, $$
+52, Juniper Bonsai, Juniperus chinensis, Partial Sun, Moist soil, High Humidity, 1, High, $$
+
+
+
+
+
+
+

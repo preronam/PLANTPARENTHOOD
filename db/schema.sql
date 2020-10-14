@@ -12,15 +12,17 @@ CREATE TABLE users
 );
 CREATE TABLE plant
 (
-  id int NOT NULL,
+  id int NOT NULL AUTO_INCREMENT,
   Common_Name varchar(255) NOT NULL,
   Scientific_Name varchar(255) NOT NULL,
   Sunlight_Needs varchar (255) NOT NULL,
   Moisture_Levels varchar (255) NOT NULL,
-   Humidity varchar (255),
-  Poison BOOLEAN default false, 
+  Humidity varchar (255) NOT NULL,
+  Poisonous BOOLEAN default false, 
   Maintenance_Level varchar (255) NOT NULL,
   Price varchar (255) NOT NULL,
+  Special varchar (255),
+  img_path varchar (1024),
   PRIMARY KEY (id)
 
   
@@ -37,3 +39,16 @@ CREATE TABLE favorites
 	FOREIGN KEY(user_id) REFERENCES users(id),
 	FOREIGN KEY(plant_id) REFERENCES plants(id)
 );
+ALTER TABLE plants
+  MODIFY id int NOT NULL AUTO_INCREMENT,
+  MODIFY Common_Name varchar(255) NOT NULL,
+  MODIFY Scientific_Name varchar(255) NOT NULL,
+  MODIFY Sunlight_Needs varchar (255) NOT NULL,
+  MODIFY Moisture_Levels varchar (255) NOT NULL,
+  MODIFY Humidity varchar (255) NOT NULL,
+  MODIFY Poisonous boolean NOT NULL,
+  MODIFY Maintenance_Level varchar (255) NOT NULL,
+  MODIFY Price varchar (255) NOT NULL,
+  ADD Special varchar (255),
+  ADD img_path varchar (1024),
+  ADD PRIMARY KEY (id)
