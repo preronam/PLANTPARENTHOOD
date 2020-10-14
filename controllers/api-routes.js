@@ -2,6 +2,7 @@
 const db = require("../models");
 const passport = require("../config/passport");
 
+
 module.exports = function (app) {
   // Using the passport.authenticate middleware with our local strategy.
   // If the user has valid login credentials, send them to the members page.
@@ -22,7 +23,7 @@ module.exports = function (app) {
       username: req.body.email,
       email: req.body.email,
       password: req.body.password,
-      favorites: "blah"
+      favorites: ""
     })
       .then(() => {
         //TODO add working login route!!!!!!
@@ -31,6 +32,7 @@ module.exports = function (app) {
       .catch(err => {
         res.status(401).json(err);
       });
+    
   });
 
 
