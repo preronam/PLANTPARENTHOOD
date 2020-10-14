@@ -32,7 +32,7 @@ module.exports = function (app) {
   });
 
 // gardens route
-  app.get("/gardens", isAuthenticated, (req, res) => {
+  app.get("/garden", (req, res) => {
     res.render(path.join(__dirname, "../views/partials/garden"));
    });
 
