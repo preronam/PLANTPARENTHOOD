@@ -10,25 +10,6 @@ CREATE TABLE users
   favorites varchar (255) NOT NULL,
   PRIMARY KEY (id)
 );
-CREATE TABLE plant
-(
-  id int NOT NULL AUTO_INCREMENT,
-  Common_Name varchar(255) NOT NULL,
-  Scientific_Name varchar(255) NOT NULL,
-  Sunlight_Needs varchar (255) NOT NULL,
-  Moisture_Levels varchar (255) NOT NULL,
-  Humidity varchar (255) NOT NULL,
-  Poisonous BOOLEAN default false, 
-  Maintenance_Level varchar (255) NOT NULL,
-  Price varchar (255) NOT NULL,
-  Special varchar (255),
-  img_path varchar (1024),
-  PRIMARY KEY (id)
-
-  
-);
-
-
 
 CREATE TABLE favorites
 (
@@ -37,9 +18,9 @@ CREATE TABLE favorites
 	plant_id int,
 	PRIMARY KEY (id),
 	FOREIGN KEY(user_id) REFERENCES users(id),
-	FOREIGN KEY(plant_id) REFERENCES plants(id)
+	FOREIGN KEY(plant_id) REFERENCES plant(id)
 );
-ALTER TABLE plants
+ALTER TABLE plant
   MODIFY id int NOT NULL AUTO_INCREMENT,
   MODIFY Common_Name varchar(255) NOT NULL,
   MODIFY Scientific_Name varchar(255) NOT NULL,
