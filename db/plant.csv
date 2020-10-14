@@ -1,3 +1,4 @@
+id, Common_Name, Scientific_Name, Sunlight_Needs, Moisture_Levels, Humidity, Poisonous, Maintenance_Level, Price
 1, Pothos, Epipremnum aureum, Partial Sun, Moist soil, High Humidity, Yes, Low, $  
 2, Monstera, Monstera Deliciosa,Partial to Full Sun, Allow soil to dry out between waterings, Average Humidity, Yes, High, $$
 3, Rubber Tree, Ficus elastica, Partial to Low Sun, Allow soil to dry out between waterings, Average Humidity, Yes, Medium, $$
@@ -50,6 +51,7 @@
 50, Flamingo Flower, Anthurium scherzerianum, Bright Indirect Sun, Moist but well drained soil, High Humidity, Yes, Medium. $$
 51, Zanzibar Gem, Zamioculcas zamiifolia, Bright Indirect Sun, Allow soil to dry out between waterings, Average Humdity, Yes, Low, $$
 52, Juniper Bonsai, Juniperus chinensis, Partial Sun, Moist soil, High Humidity, Yes, High, $$
+
 
 
 
