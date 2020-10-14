@@ -10,22 +10,23 @@ CREATE TABLE users
   favorites varchar (255) NOT NULL,
   PRIMARY KEY (id)
 );
-
-CREATE TABLE plants
+CREATE TABLE plant
 (
   id int NOT NULL,
   Common_Name varchar(255) NOT NULL,
   Scientific_Name varchar(255) NOT NULL,
   Sunlight_Needs varchar (255) NOT NULL,
-  Water_Needs varchar (255) NOT NULL,
   Moisture_Levels varchar (255) NOT NULL,
-  Toxic BOOLEAN default false, 
+   Humidity varchar (255),
+  Poison BOOLEAN default false, 
   Maintenance_Level varchar (255) NOT NULL,
-  Affordability varchar (255) NOT NULL,
-  Special varchar (255),
-  img_path varchar (1024),
+  Price varchar (255) NOT NULL,
   PRIMARY KEY (id)
+
+  
 );
+
+
 
 CREATE TABLE favorites
 (

@@ -4,7 +4,7 @@ module.exports = function (app) {
 
   //Routes for Plants Table///
   // GET route for getting all of the plants---->
-  app.get("/api/plants/", function (req, res) {
+  app.get("/api/plant/", function (req, res) {
     db.Plants_db.findAll({})
       .then(function (Plants_db) {
         res.json(Plants_db);
