@@ -1,14 +1,29 @@
 <!-- Nav Bar-->
-<nav class="white" role="navigation">
+<nav class="teal lighten-2" role="navigation">
   <div class="nav-wrapper container">
-    <a id="logo-container" href="#" class="brand-logo"><img href="./images/logo.png"></a>
+    <a id="logo-container" href="/" class="brand-logo white-text">PlantParenthood</a>
     <ul class="right hide-on-med-and-down">
-      <li><a href="#">Navbar Link</a></li>
+      <li><a href="./garden">Virtual Gardens</a></li>
       <li><a href="./search">Search for a Plant</a></li>
-      <li><a href="./logout">Logout</a></li>
+      <li><a href="./signup">Sign Up</a></li>
+      <li><a href="./login">Login</a></li>
     </ul>
 
+    <ul id="nav-mobile" class="sidenav nav-side">
+      <li><a href="./garden">Virtual Gardens</a></li>
+      <li><a href="./search">Search for a Plant</a></li>
+      <li><a href="./signup">Sign Up</a></li>
+      <li><a href="./login">Login</a></li>
+    </ul>
+    
+    <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+  </div>
+</nav>
+
 <!-- 5 cards for each garden on the gardens page-->
+
+<!-- Put all of the cards in flexbox and standardize the size of the cards.-->
+
 
     <div class="row">
     <div class="col s12 m7">
@@ -18,7 +33,7 @@
           <span class="card-title">Herb Garden</span>
         </div>
         <div class="card-content">
-          <p>Indoor gardening with herbs is easy, making it perfect for beginners. Since herbs are typically small, you have a lot of flexibility and plenty of design choices.</p>
+          <p>Indoor gardening with herbs is easy, making it perfect for beginners. Herbs are typically small, providing flexibility and plenty of design choices.</p>
         </div>
         <div class="card-action">
           <a href="#">This is a link</a>
@@ -35,7 +50,7 @@
           <span class="card-title">Succulent Garden</span>
         </div>
         <div class="card-content">
-          <p>There are cakes on a cupcake stand, and there are also succulents on a two-tier stand.</p>
+          <p>Succulent gardens require limited maintenance and offer a variety of options for garden design. With minimal care, these plants are able to thrive even in the winters .</p>
         </div>
         <div class="card-action">
           <a href="#">This is a link</a>
@@ -52,7 +67,7 @@
           <span class="card-title">Summer Garden</span>
         </div>
         <div class="card-content">
-          <p>Many plants take the summer very well. Summer provides them the right amount of hours in the sun and temperature for them to grow.</p>
+          <p>Summer is a great time to start a plant collection. This season provides the right amount of sun exposure and ideal temperatures for various plants to grow.</p>
         </div>
         <div class="card-action">
           <a href="#">This is a link</a>
@@ -69,7 +84,7 @@
           <span class="card-title">Fall Garden</span>
         </div>
         <div class="card-content">
-          <p>Fall is the season of falling leaves, and flowers in shades of yellow and orange are perfect for this season. The conditions are still right to grow quite a few plants, so take advantage of that.</p>
+          <p>Fall adds a touch of color to every plant lover's life. The conditions are still right to grow quite a few plants, so be sure to take advantage of this season.</p>
         </div>
         <div class="card-action">
           <a href="#">This is a link</a>
@@ -86,7 +101,7 @@
           <span class="card-title">Winter Garden</span>
         </div>
         <div class="card-content">
-          <p>If summer is the happy season of gardening, winter must be the bane of gardening. There’s the very little sun, and the cold is not something that plants love, though some of them actually need it.</p>
+          <p> Winter does not necessarily mean the end of gardening activities. Some plants actually thrive in colder climates. Make the most of the cold weather to explore unique plants</p>
         </div>
         <div class="card-action">
           <a href="#">This is a link</a>
@@ -103,7 +118,7 @@
           <span class="card-title">Spring Garden</span>
         </div>
         <div class="card-content">
-          <p>Springtime is the season when everything starts to grow back from the winter. You can definitely get some flowers and let them thrive happily on your tabletops as part of your indoor gardening activities!</p>
+          <p>Spring is the season of growth. Make sure to liven up your table tops with some spring flowers! </p>
         </div>
         <div class="card-action">
           <a href="#">This is a link</a>
@@ -111,3 +126,18 @@
       </div>
     </div>
   </div>
+
+  <footer class="page-footer teal">
+ 
+  <div class="footer-copyright">
+    <div class="container">
+      <a class="brown-text text-lighten-3" href="./index">Plant Parenthood</a>
+    </div>
+  </div>
+</footer>
+
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="./materializeJS/materialize.js"></script>
+<script src="./materializeJS/init.js"></script>

@@ -10,8 +10,7 @@ CREATE TABLE users
   favorites varchar (255) NOT NULL,
   PRIMARY KEY (id)
 );
-
-CREATE TABLE plants
+CREATE TABLE plant
 (
   id int NOT NULL AUTO_INCREMENT,
   Common_Name varchar(255) NOT NULL,
@@ -25,7 +24,11 @@ CREATE TABLE plants
   Special varchar (255),
   img_path varchar (1024),
   PRIMARY KEY (id)
+
+  
 );
+
+
 
 CREATE TABLE favorites
 (

@@ -33,77 +33,81 @@
             <div class="col 12 m6">
                 <div class="card-panel teal white-text">
                     <h5>How the Search Works</h5>
-                    <p>In order to find your perfect plant, we first have to find out a bit about you!</p>
-                    <p>Are you looking for a plant for your apartment that doesn't have great light? Make sure to let us
-                        know by checking Low Light. If this is your first plant, maybe start out with something low
-                        maintenance. Have pets or small children? Be sure to check that off to remove
-                        toxic plants from your search results. Do you live somewhere really dry? Let us know by
-                        selecting Low Humidty.</p>
+                    <p>In order to find your perfect plant, we first have to learn a bit about you! 
+                    Tell us about the sunlight, humidity, and moisture levels at your place of residence.
+                    Let us know if you have pets or young children living with you.
+                    Our custom search works to suggest a plant that fits your life.</p>
                 </div>
             </div>
             <div class="col 12 m6">
-                <div class="section">
+                <form class="search">
+                <div class="form">
                     <!--   Search Critera   -->
                     <div class="row">
                         <div class="col 6 search-option z-depth-4">
-                            <select class="browser-default">
-                                <option value="" disabled selected>What kind of sunlight can you provide?</option>
-                                <option value="1">Option 1</option>
-                                <option value="2">Option 2</option>
-                                <option value="3">Option 3</option>
+                            <select id="sun" class="browser-default">
+                                <option value="" disabled selected>What kind of sun exposure can you provide?</option>
+                                <option value="Full Sun">Full Sun</option>
+                                <option value="Partial Sun">Partial Sun</option>
+                                <option value="Bright Indirect Sun">Bright Indirect Sun</option>
+                                <option value="Indirect Sun">Indirect Sun</option>
+                                <option value="Partial to full Sun">Partial to Full Sun</option>
+                                <option value="Partial to low Sun">Partial to Low Sun</option>
                             </select>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col 6 search-option z-depth-4">
-                            <select class="browser-default">
-                                <option value="" disabled selected>What level of humidity are you able to provide
+                            <select id="humidity" class="browser-default">
+                                <option value="" disabled selected>What are the humidity levels you can provide?
                                 </option>
-                                <option value="1">Low</option>
-                                <option value="2">Average</option>
-                                <option value="3">High</option>
+                                <option value="Low">Low</option>
+                                <option value="Average">Average</option>
+                                <option value="High">High</option>
                             </select>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col 6 search-option z-depth-4">
-                            <select class="browser-default">
+                            <select id="maintenance" class="browser-default">
                                 <option value="" disabled selected>What maintenance level are you comfortable with?
                                 </option>
-                                <option value="1">Low</option>
-                                <option value="2">Medium</option>
-                                <option value="3">High</option>
-                                <option value="4">Any</option>
+                                <option value="Low">Low</option>
+                                <option value="Medium">Medium</option>
+                                <option value="High">High</option>
+                                <option value="Any">Any</option>
                             </select>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col 6 search-option z-depth-4">
-                            <select class="browser-default">
+                            <select id="children" class="browser-default">
                                 <option value="" disabled selected>Do you have pets?</option>
-                                <option value="1">Yes</option>
-                                <option value="2">No</option>
+                                <option value="Yes">Yes</option>
+                                <option value="No">No</option>
                             </select>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col 6 search-option z-depth-4">
-                            <select class="browser-default">
-                                <option value="" disabled selected>Do you have small children?</option>
-                                <option value="1">Yes</option>
-                                <option value="2">No</option>
+                            <select id="pets" class="browser-default">
+                                <option value="" disabled selected>Do you have young children?</option>
+                                <option value="Yes">Yes</option>
+                                <option value="No">No</option>
                             </select>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col 6 search-option z-depth-4">
-                            <select class="browser-default">
+                           <select id="price" class="browser-default">
                                 <option value="" disabled selected>What is your price range?</option>
-                                <option value="1">$</option>
-                                <option value="2">$$</option>
-                                <option value="3">$$$</option>
-                                <option value="4">Any</option>
+                                <option value="$">$</option>
+                                <option value="$$">$$</option>
+                                <option value="$$$">$$$</option>
+                                <option value="Any">Any</option>
                             </select>
+                            <button type="submit">SUBMIT</button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -131,3 +135,4 @@
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="./materializeJS/materialize.js"></script>
 <script src="./materializeJS/init.js"></script>
+<script src="./js/search.js"></script>

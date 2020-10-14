@@ -3,7 +3,6 @@
 var express = require("express");
 var session = require("express-session");
 var exphbs = require("express-handlebars");
-var HandlebarsFormHelpers = require("handlebars-form-helpers");
 var passport = require("./config/passport");
 
 const hbs = exphbs.create({
@@ -12,10 +11,6 @@ const hbs = exphbs.create({
   layoutsDir: `${__dirname}/app/views/layouts/`,
   partialsDir: `${__dirname}/app/views/partials/`,
 });
-
-// Call the registerHelper and pass in the handlebars object
-HandlebarsFormHelpers.register(hbs.handlebars, { namespace: 'form' });
-
 
 // Sets up the Express App
 // =============================================================
