@@ -39,13 +39,14 @@ CREATE TABLE favorites
 	FOREIGN KEY(user_id) REFERENCES users(id),
 	FOREIGN KEY(plant_id) REFERENCES plants(id)
 );
-
+ALTER TABLE plants
   MODIFY id int NOT NULL AUTO_INCREMENT,
   MODIFY Common_Name varchar(255) NOT NULL,
   MODIFY Scientific_Name varchar(255) NOT NULL,
   MODIFY Sunlight_Needs varchar (255) NOT NULL,
   MODIFY Moisture_Levels varchar (255) NOT NULL,
   MODIFY Humidity varchar (255) NOT NULL,
+  MODIFY Poisonous boolean NOT NULL,
   MODIFY Maintenance_Level varchar (255) NOT NULL,
   MODIFY Price varchar (255) NOT NULL,
   ADD Special varchar (255),
