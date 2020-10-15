@@ -39,7 +39,6 @@ app.use(passport.session());
 require("./controllers/api-routes")(app);
 require("./controllers/api-plants")(app);
 
-// Routes
 
 // HTML ROUTES
 require("./routes/html-routes")(app);
