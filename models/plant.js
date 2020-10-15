@@ -3,13 +3,18 @@ module.exports = function (sequelize, DataTypes) {
         Common_Name: DataTypes.STRING,
         Scientific_Name: DataTypes.STRING,
         Sunlight_Needs: DataTypes.STRING,
-        Water_Needs: DataTypes.STRING,
         Moisture_Levels: DataTypes.STRING,
+        Humidity: DataTypes.STRING,
         Poisonous: DataTypes.BOOLEAN,
         Maintenance_Level: DataTypes.STRING,
-        Affordability: DataTypes.STRING,
-        img_path: DataTypes.STRING
+        Price: DataTypes.STRING,
+        Garden_Type: DataTypes.STRING,
+        Plant_Type: DataTypes.STRING,
 
-    });
+    },
+        {
+            timestamps: false
+        }
+    );
     return plants;
 };
