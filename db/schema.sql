@@ -7,7 +7,7 @@ CREATE TABLE users
   username varchar(255) NOT NULL,
   email varchar(320) NOT NULL,
   password varchar(255) NOT NULL,
-  favorites varchar (255) NOT NULL,
+  favorites varchar (255),
   PRIMARY KEY (id)
 );
 
