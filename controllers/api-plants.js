@@ -121,6 +121,7 @@ module.exports = function (app) {
     })
       // Returns results matching the query
       .then(function (Plants_db) {
+        console.log(Plants_db);
         res.render('./partials/results', { plants: Plants_db });
       });
   });
