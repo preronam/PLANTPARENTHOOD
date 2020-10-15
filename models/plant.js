@@ -10,7 +10,6 @@ module.exports = function (sequelize, DataTypes) {
         Price: DataTypes.STRING,
         Garden_Type: DataTypes.STRING,
         Plant_Type: DataTypes.STRING,
-
     },
         {
             timestamps: false

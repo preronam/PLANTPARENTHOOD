@@ -80,16 +80,16 @@
                                 </select>
                             </div>
                         </div>
-                        {{!-- <div class="row">
-                        <div class="col 6 search-option z-depth-4">
-                            <select id="children" class="browser-default">
-                                <option value="" disabled selected>Do you have pets?</option>
-                                <option value="Yes">Yes</option>
-                                <option value="No">No</option>
-                            </select>
-                        </div>
-                    </div> --}}
                         <div class="row">
+                            <div class="col 6 search-option z-depth-4">
+                                <select id="pets" class="browser-default">
+                                    <option value="" disabled selected>Do you have pets?</option>
+                                    <option value="Yes">Yes</option>
+                                    <option value="No">No</option>
+                                </select>
+                            </div>
+                        </div>
+                        {{!-- <div class="row">
                             <div class="col 6 search-option z-depth-4">
                                 <select id="pets" class="browser-default">
                                     <option value="" disabled selected>Do you have young children?</option>
@@ -97,17 +97,17 @@
                                     <option value="No">No</option>
                                 </select>
                             </div>
-                        </div>
+                        </div> --}}
                         <div class="row">
                             <div class="col 6 search-option z-depth-4">
-                                <select id="price" class="browser-default">
+                                {{!-- <select id="price" class="browser-default">
                                     <option value="" disabled selected>What is your price range?</option>
                                     <option value="$">$</option>
                                     <option value="$$">$$</option>
                                     <option value="$$$">$$$</option>
                                     <option value="Any">Any</option>
-                                </select>
-                                <button type="submit">SUBMIT</button>
+                                </select> --}}
+                                <button id="submitSearch" type="submit">SUBMIT</button>
                 </form>
             </div>
         </div>
