@@ -19,6 +19,11 @@ p {
   color: #004d40;
 }
 
+.herb{
+  display: none;
+  background-color: teal;
+}
+
 .parallax-container {
   min-height: 380px;
   line-height: 0;
