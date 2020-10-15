@@ -7,7 +7,7 @@ CREATE TABLE users
   username varchar(255) NOT NULL,
   email varchar(320) NOT NULL,
   password varchar(255) NOT NULL,
-  favorites varchar (255) NOT NULL,
+  favorites varchar (255),
   PRIMARY KEY (id)
 );
 
@@ -20,7 +20,7 @@ CREATE TABLE favorites
 	FOREIGN KEY(user_id) REFERENCES users(id),
 	FOREIGN KEY(plant_id) REFERENCES plant(id)
 );
-ALTER TABLE plant
+ALTER TABLE plants
   MODIFY id int NOT NULL AUTO_INCREMENT,
   MODIFY Common_Name varchar(255) NOT NULL,
   MODIFY Scientific_Name varchar(255) NOT NULL,
