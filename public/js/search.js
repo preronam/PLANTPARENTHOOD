@@ -7,15 +7,18 @@ $(document).ready(function () {
         var sunlight = $('#sun').val();
         var humidity = $('#humidity').val();
         var maintenance = $('#maintenance').val();
-        var price = $('#price').val();
+        // var price = $('#price').val();
         var poison = $('#pets').val();
 
-        const url = `/api/plants?sunlight=${sunlight}&humidity=${humidity}&maintenance=${maintenance}&price=${price}&poison=${poison}`
+        const url = `/api/plants?sunlight=${sunlight}&humidity=${humidity}&maintenance=${maintenance}&poison=${poison}`
         $.ajax({
             type: "GET",
             url: url
         }).then(function (response) {
             console.log(response);
+            // for (i = 0; i < plants.length; i++) {
+            //     loop through response to render to results page
+            // }
         });
     });
 });
