@@ -19,26 +19,58 @@ p {
   color: #004d40;
 }
 
-.herb{
+.gardens-page {
+  background-image: url("../images/greennavbg.jpg");
+}
+
+.herb {
+  background-color: rgb(70, 184, 184);
   display: none;
-  background-color: teal;
+  text-align: center;
+  font-weight: bolder;
+  font-size: medium;
+}
+
+.card {
+  background-color: rgb(70, 184, 184);
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-size: medium;
+
+}
+
+.sign {
+  background-image: url("../images/greenbg2.jpg");
+}
+
+.log {
+
+  background-image: url("../images/greenbg2.jpg");
+
+}
+.form-group{
+  background-color: honeydew;
 }
 
 .parallax-container {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color: rgba(255, 255, 255, .9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+
+.parallax-container .section {
+  width: 100%;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
   }
+
   #index-banner .section {
     top: 10%;
   }
@@ -53,6 +85,7 @@ p {
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
   font-size: inherit;
 }
@@ -61,55 +94,56 @@ footer.page-footer {
   margin: 0;
 }
 
-#index-buttons{
+#index-buttons {
   display: flex;
   justify-content: space-evenly;
 }
 
-#search, #results{
+#search,
+#results {
   background-image: url("../images/greenbg2.jpg");
   background-attachment: fixed;
   padding: 30px;
 }
 
-.search-sec{
+.search-sec {
   background-color: white;
 }
 
-.search-option{
+.search-option {
   justify-content: center;
 }
 
-.result-image{
+.result-image {
   max-height: 100px;
 }
 
-.search-card{
+.search-card {
   margin: auto;
   width: 50%;
 
 }
 
-.center-container{
+.center-container {
   margin: auto;
   width: 50%;
   margin-top: 5px;
 }
 
-.card-panel{
+.card-panel {
   padding-top: 10px;
   margin-top: 10px;
 }
 
-#search-results-text{
+#search-results-text {
   color: white;
   text-shadow: 2px 2px 4px #000000;
 }
 
-#header-text{
+#header-text {
   text-shadow: 2px 2px 4px white;
 }
 
-.nav-side{
+.nav-side {
   background-image: url("../images/greennavbg.jpg");
 }
