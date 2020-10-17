@@ -18,9 +18,13 @@
  .sidenav-trigger {
    color: #004d40;
  }
- 
- .gardens-page {
-   background-image: url("../images/greennavbg.jpg");
+
+ .garden-card {
+   /* max-width: 400px; */
+   margin: auto;
+   width: 70%;
+   margin-top: 5px;
+   padding: 10px;
  }
  
  .herb {
@@ -105,6 +109,13 @@
    background-attachment: fixed;
    padding: 30px;
  }
+
+ #garden {
+  background-image: url("../images/greenbg2.jpg");
+  background-attachment: fixed;
+  padding: 10px;
+ }
+
  
  .search-sec {
    background-color: white;
@@ -146,4 +157,17 @@
  
  .nav-side {
    background-image: url("../images/greennavbg.jpg");
+ }
+
+ #results-card {
+   background-color: white;
+   color: black;
+   text-align: left;
+   font-size: 12px;
+ }
+
+ #result-div {
+  margin: auto;
+  width: 70;
+  margin-top: 5px;
  }
