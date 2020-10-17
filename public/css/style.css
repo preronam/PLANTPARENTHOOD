@@ -24,6 +24,7 @@
    margin: auto;
    width: 70%;
    margin-top: 5px;
+   padding: 10px;
  }
  
  .herb {
@@ -114,6 +115,7 @@
   background-attachment: fixed;
   padding: 10px;
  }
+
  
  .search-sec {
    background-color: white;
