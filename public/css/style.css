@@ -18,9 +18,12 @@
  .sidenav-trigger {
    color: #004d40;
  }
- 
- .gardens-page {
-   background-image: url("../images/greennavbg.jpg");
+
+ .garden-card {
+   /* max-width: 400px; */
+   margin: auto;
+   width: 70%;
+   margin-top: 5px;
  }
  
  .herb {
@@ -104,6 +107,12 @@
    background-image: url("../images/greenbg2.jpg");
    background-attachment: fixed;
    padding: 30px;
+ }
+
+ #garden {
+  background-image: url("../images/greenbg2.jpg");
+  background-attachment: fixed;
+  padding: 10px;
  }
  
  .search-sec {
