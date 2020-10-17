@@ -30,6 +30,5 @@ ALTER TABLE plants
   MODIFY Poisonous boolean NOT NULL,
   MODIFY Maintenance_Level varchar (255) NOT NULL,
   MODIFY Price varchar (255) NOT NULL,
-  ADD Special varchar (255),
   ADD img_path varchar (1024),
   ADD PRIMARY KEY (id)

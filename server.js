@@ -4,6 +4,9 @@ var express = require("express");
 var session = require("express-session");
 var exphbs = require("express-handlebars");
 var passport = require("./config/passport");
+var dotenv = require("dotenv")
+
+dotenv.config({ path: './.env'})
 
 const hbs = exphbs.create({
   defaultLayout: 'app',
@@ -45,7 +48,7 @@ require("./controllers/api-plants")(app);
 require("./routes/html-routes")(app);
 
 //Syncing sequelize models and then starting the Express app//
-db.sequelize.sync({ truncate: true }).then(function () {
+db.sequelize.sync().then(function () {
   app.listen(PORT, function () {
     console.log("App listening on PORT " + PORT);
   });
