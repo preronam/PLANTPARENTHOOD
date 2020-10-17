@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  var plants =[];
+    var plants = [];
     //When the form is submitted, the posts are done
     $(".search").on("submit", function (event) {
         event.preventDefault();
@@ -15,21 +15,23 @@ $(document).ready(function () {
             type: "GET",
             url: url
         }).then(function (response) {
-            $("#results").empty();
+            $("#results-card").empty();
             let html = "";
             response.forEach(plant => {
                 html = `  
-                <div id="plant">${plant.Common_Name}</div>
-                <div id="sci">${plant.Scientific_Name}</div>
-                <div id="sunlight">${plant.Sunlight_Needs}</div>
-                <div id="humid">${plant.Humidity}</div>
-                <div id="moisture">${plant.Moisture_Levels}</div>
-                <div id="poison">${plant.Poisonous}</div>
-                <div id="maintain">${plant.Maintenance_Level}</div>
-                <div id="price">${plant.Price}</div>`;
+                <ul>
+                <li id="plant">Plant Name: ${plant.Common_Name}</li>
+                <li id="sci">Scientific Name: ${plant.Scientific_Name}</li>
+                <li id="sunlight">Sunlight Needs: ${plant.Sunlight_Needs}</li>
+                <li id="humid">Humidity Needs: ${plant.Humidity}</li>
+                <li id="moisture">Soil Moisture Needs: ${plant.Moisture_Levels}</li>
+                <li id="poison">Toxic: ${plant.Poisonous}</li>
+                <li id="maintain">Maintenance Level: ${plant.Maintenance_Level}</li>
+                <li id="price">Price Range: ${plant.Price}</li>
+                </ul>`;
             });
-            $('#results').append(html);
-    
+            $('#results-card').append(html);
+
         });
 
     });
@@ -39,7 +41,7 @@ $(document).ready(function () {
 
 
 
-    
+
 
 
 

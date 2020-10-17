@@ -147,3 +147,16 @@
  .nav-side {
    background-image: url("../images/greennavbg.jpg");
  }
+
+ #results-card {
+   background-color: white;
+   color: black;
+   text-align: left;
+   font-size: 12px;
+ }
+
+ #result-div {
+  margin: auto;
+  width: 70;
+  margin-top: 5px;
+ }
