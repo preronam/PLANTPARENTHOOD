@@ -21,7 +21,7 @@ module.exports = function (app) {
   });
 
   app.get("/results", (req, res) => {
-    res.render(path.join(__dirname, "../views/partials/results"));
+    res.render(path.join(__dirname, "../views/results"));
   });
 
   app.get("/login", (req, res) => {
