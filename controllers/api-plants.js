@@ -1,4 +1,5 @@
 const db = require("../models");
+const path = require("path");
 
 module.exports = function (app) {
 
@@ -122,7 +123,10 @@ module.exports = function (app) {
       // Returns results matching the query
       .then(function (Plants_db) {
         console.log(Plants_db);
-        res.render('./partials/results', { plants: Plants_db });
+        // res.json(Plants_db)
+        const plantList = Plants_db.map(plant => plant.dataValues);
+        res.json(plantList);
+        // res.render(path.join(__dirname, "../views/results"),{ plants: plantList });
       });
   });
 };
