@@ -1,60 +1,56 @@
-id, Common_Name, Scientific_Name, Sunlight_Needs, Moisture_Levels, Humidity, Poisonous, Maintenance_Level, Price, Garden_Type, Plant_Type, img_path
-1, Pothos, Epipremnum aureum, Partial Sun, Moist soil, High Humidity, 1, Low, $, Tropical, Null, 
-2, Monstera, Monstera Deliciosa, Partial to Full Sun, Allow soil to dry out between waterings, Average Humidity, 1, High, $$, Null, Null, Null
-3, Rubber Tree, Ficus elastica, Partial to Low Sun, Allow soil to dry out between waterings, Average Humidity, 1, Medium, $$, Null, Tree, Null
-4, Spider Plant, Chlorophytum comosum, Partial Sun, Well drained soil, Average Humidity, 0, Low, $$, Null, Null, Null
-5, Bird's Nest Fern, Asplenium nidus, Partial to Low Sun,  Moist soil, Average Humidity, 0, Low, $, Null, Fern, Null
-6, Heartleaf Philodendron, Philodendron hederaceum, Partial to Full Sin, Lightly moist soil, Average Humidity, 1, Low, $, Null, Null, Null
-7, Aloe, Aloe rubroviolacea, Partial to Full Sun, Dry soil, Average Humidity, 1, Low, $, Succulent, Succulent, Null
-8, Jade, Crassula ovata, Full Sun, Lightly moist soil, Average Humidity, 1 , Medium, $, Succulent, Succulent, Null
-9, Mexican Gem Succulent, Echeveria elegans, Partial to Full Sun, Well drained soil, Average Humidity, 1, Low, $, Succulent, Succulent, Null
-10, Ghost Echeveria, Echeveria lilacina, Partial to Full Sun, Well drained soil, Average Humidity, 1, Low, $, Succulent, Succulent, Null
-11, Snake Plant, Sansevieria trifasciata, Indirect Sun, Allow soil to dry out between waterings, Average Humidity, 1, Low, $$, Null, Null, Null
-12, Moonstones, Achyphytum oviferum , Partial to Full Sun, Well drained soil, Average Humidity, 1, Low, $, Succulent, Succulent, Null
-13, Prayer Plant, Maranta leuconeura, Indirect Sun, Moist soil, High Humidity, 0, Medium, $$, Tropical, Null, Null
-14, Swordfern, Nephrolepis exaltata, Partial Sun, Moist Soil, Average Humidity, 0, Low, $, Null, Fern, Null
-15, Cattleya Orchid, Cattleya aclandiae, Indirect Sun, Well drained soil, High Humidity, 0, Medium, $$, Tropical, Flowering, Null
-16, English Ivy, Hedera helix, Partial to Full Sun, Dryer soil, Average Humidity, 1, Low $, Null, Null, Null
-17, Bishop's Hat Cactus, Astrophytum ornatum, Partial Sun, Dry soil, Low Humidity, 1, Low, $$, Cactus, Cactus, Null
-18, Old Lady Cactus, Mammillaria hahniana, Partial Sun, Dry soil, Low Humidity, 1, Low, $, Cactus, Cactus, Null
-19, Golden Barrel Cactus, Echi0cactus grusonii, Partial Sun, Dry soil, Low Humidity, 1, Low, $, Cactus, Cactus, Null
-20, Angel's Wing Cactus, Opuntia microdasys, Partial Sun, Dry soil, Low Humidity, 1, Low, $, Cactus, Cactus, Null
-21, Zebra Plant, Aphelandra squarros, Partial Sun, Moist soil, High Humidity, 0, High, $, Tropical, Null, Null
-22, Inchplant, Tradescantia zebrina, Partial Sun, Moist soil, Average Humidity, 1, Low, $, Null, Null, Null
-23, Elephant Ear, Colocasia esculenta, Partial to Full Sun, Moist Soil, High Humidity, 1, High, $$, Tropical, Null, Null
-24, Venus Flytrap, Dionaea muscipula, Bright Indirect Sun, Mpost soil, High Humidity, High, 0, $, Tropical, Carnivorous, Null
-25, Superstar Croton, Codiaeum variegatum, Full Sun, Moist soil, High Humidity, 1, High, $$, Null, Null, Null
-26, Sage, Salvia officinalis, Partial Sun, Allow soil to dry out between waterings, Average Humidity, 0, Medium, $, Herb, Herb, Null
-27, Rosemary, Rosmainus officinalis, Full Sun, Dryer soil, Average Humidity, 0, Medium, $, Herb, Herb, Null
-28, Fiddle Leaf Fig, Ficus lyrata, Full Sun, Allow soil to dry out between waterings, High Humidity, 1, High, $$, Tropical, Tree, Null
-29, Calathea Orbifolia, Calathea orbifolia, Bright Indirect Sun, Allow soil to partially dry out beween waterings, High Humidity, 0, Medium, $$, Null, Calathea, Null
-30, Peacock Plant, Calathea makoyana, Bright Indirect Sun, Allow soil to partially dry out beween waterings, High Humidity, 0, Medium, $$, Null, Calathea, Null
-31, Pinstripe Plant, Calathea ornata, Bright Indirect Sun, Allow soil to partially dry out beween waterings, High Humidity, 0, Medium, $$, Null, Calathea, Null
-32, Rattlesnake Plant, Calathea lancifolia, Bright Indirect Sun, Allow soil to partially dry out beween waterings, High Humidity, 0, Medium, $$, Null, Calathea, Null
-33, Phoenix Orchid, Caymbidium dayanum, Indirect Sun, Well drained soil, High Humidity, 0, Medium, $$, Tropical, Flowering, Null
-34, Moth Orchid, Phalae0psis amabilis, Indirect Sun, Well drained soil, High Humidity, 0, Medium, $$, Tropical, Flowering, Null
-35, String of Pearls, Senecia rowleyanus, Bright Indirect Sun, Dryer soil, Average Humidity, 0, Low, $, Succulent, Succulent, Null
-36, Dutch Clover, Trifolium repens, Partial Sun, Well drained soil, Average Humiidity, 0, Low, $, Null, Null, Null
-37, Common Periwinkle, Vinca mi0r, Partial Sun, Mpost soil, Average Humidity, 1, Medium, $$, Null, Flowering, Null
-38, Asparagus Fern, Asparagus plumosus, Partial to Full Sun, Allow soil to dry out between waterings, High Humidity, 1, Low, $, Null, Fern, Null
-39, African violet, Streotocarpus ionanthus, Partial Sun, Moist but well drained soil, Average Humidity, 0, Medium, $, Null, Flowering, Null
-40, Weeping Fig, Ficus benjamina, Bright Indirect Sun, Moist soil, High Humidity, 1, High, $$, Null, Tree, Null
-41, Petra Croton, Codiaeum Variegatum, Full Sun, Moist soil, High Humidity, 1, High, $$, Null, Null, Null
-42, Long Flower Kalanchoe, Kalanchoe longiflora, Bright Indirect Sun, Well drained dryer soil, Average Humidity, 1, Low, $$, Null, Flowering, Null
-43, Garber Daisy, Gerbera jamesonii, Bright Indirect Sun, Allow soil to partially dry out between waterings, Average Humidity, 0, Medium, $$, Null, Flowering, Null
-44, Dwarf Azalea, Rhododendron atlanticum, Bright Indirect Sun, Moist well drained soil, Average Humidity, 1, Medium, $, Null, Flowering, Null
-45, Peppermint, Mentha piperita, Indirect Sun, Moist soil, High HUmidity, 1, Medium, $, Null, Herb, Null
-46, Wax Begonia,  Begonia cucullata, Full Sun, Allow soil to partially dry out between waterings, Low Humidity, 1, Low, $, Null, Flowering, Null
-47, Umbrella Plant, Schefflera arboricola, Indirect Sun, Allow soil to dry out between waterings, Average Humidity, 1, Low, $, Null, Tree, Null
-48, Areca Palm, Dypsis lutescens, Bright Indirect Sun, Moist soil, High Humidity, 0, High, $$, Tropical, Tree, Null
-49, Bamboo Palm, Chamaedorea costaricana, Bright Indirect Sun, Moist soil, High Humidity, 0, Medium, $$, Null, Null, Null
-50, Flamingo Flower, Anthurium scherzerianum, Bright Indirect Sun, Moist but well drained soil, High Humidity, 1, Medium. $$, Flowering, Flowering, Null
-51, Zanzibar Gem, Zamioculcas zamiifolia, Bright Indirect Sun, Allow soil to dry out between waterings, Average Humdity, 1, Low, $$, Null, Flowering, Null
-52, Juniper Bonsai, Juniperus chinensis, Partial Sun, Moist soil, High Humidity, 1, High, $$, Bonsai, Bonsai, Null
-53, Red Aglaonema, Aglaonema widuri, Bright Indirect Sun, Allow soil to dry out between waterings, Average Humidity, 1, Medium, $$, Null, Flowering, Null
-54, Money Plant, Pilea peperomioides, Bright Direct Sun, Allow soil to dry out between waterings, Average Humidity, 0, Medium, $$, Null, Null, Null
-55, Bird of Paradise, Strelitzia reginae, Bright Direct Sun, Moist but well drained soil, Average Humidity, 1, Medium, $$$, Null, Tree, Null
-56, Yucca Cane Plant, Yucca guatamalensis, Partial Sun, Moist but well drained soil, Average Humidity, 1, Medium, $$$, Null, Tree, Null
-57, Staghorn Fern, Platycerium bifurcatum, Bright Indirect Sun, Allow soil to partially dry out beween waterings, Average Humidity, Low, 0, $$, Null, Fern, Null
-58, Crocodile fern, Microsorium musifolium, Indirect Sun, Allow soil to dry out between waterings, High Humidity, 0, Low, $$, Null, Fern, Null
-59, Lavendar, Lavandula angustifolia, Full Sun, Allow soil to partially dry out between waterings, Average Humidity, 1, Medium, $$, Herb, Herb, Null
+id,Common_Name,Scientific_Name,Sunlight_Needs,Moisture_Levels,Humidity,Poisonous,Maintenance_Level,Price,Garden_Type,Plant_Type,img_path
+1,Pothos,"Epipremnum aureum","Partial Sun","Moist soil","High Humidity",1,Low,$,Tropical,NULL,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/pothos.jpg"
+2,Monstera,"Monstera Deliciosa","Partial to Full Sun","Allow soil to dry out between waterings","Average Humidity",1,High,$$,NULL,NULL,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/monstera.jpg"
+3,"Rubber Tree","Ficus elastica","Partial to Low Sun","Allow soil to dry out between waterings","Average Humidity",1,Medium,$$,NULL,Tree,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/rubbertree.jpg"
+4,"Spider Plant","Chlorophytum comosum","Partial Sun","Well drained soil","Average Humidity",0,Low,$$,NULL,NULL,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/spiderplant.jpg"
+5,"Bird's Nest Fern","Asplenium nidus","Partial to Low Sun","Moist soil","Average Humidity",0,Low,$,NULL,Fern,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/birdsnestfern.jpg"
+6,"Heartleaf Philodendron","Philodendron hederaceum","Partial to Full Sin","Lightly moist soil","Average Humidity",1,Low,$,NULL,NULL,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/heartleaf.jpg"
+7,Aloe,"Aloe rubroviolacea","Partial to Full Sun","Dry soil","Average Humidity",1,Low,$,Succulent,Succulent,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/aloe.jpg"
+8,Jade,"Crassula ovata","Full Sun","Lightly moist soil","Average Humidity",1,Medium,$,Succulent,Succulent,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/jade.jpg"
+9,"Mexican Gem Succulent","Echeveria elegans","Partial to Full Sun","Well drained soil","Average Humidity",1,Low,$,Succulent,Succulent,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/mexicangemsucculent.jpg"
+10,"Ghost Echeveria","Echeveria lilacina","Partial to Full Sun","Well drained soil","Average Humidity",1,Low,$,Succulent,Succulent,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/ghostecheveria.jpg"
+11,"Snake Plant","Sansevieria trifasciata","Indirect Sun","Allow soil to dry out between waterings","Average Humidity",1,Low,$$,NULL,NULL,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/snakeplant.jpg"
+12,Moonstones,"Achyphytum oviferum ","Partial to Full Sun","Well drained soil","Average Humidity",1,Low,$,Succulent,Succulent,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/moonstones.jpg"
+13,"Prayer Plant","Maranta leuconeura","Indirect Sun","Moist soil","High Humidity",0,Medium,$$,Tropical,NULL,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/prayerplant.jpg"
+14,Swordfern,"Nephrolepis exaltata","Partial Sun","Moist Soil","Average Humidity",0,Low,$,NULL,Fern,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/swordfern.jpg"
+15,"Cattleya Orchid","Cattleya aclandiae","Indirect Sun","Well drained soil","High Humidity",0,Medium,$$,Tropical,Flowering,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/cattleyaorchid.jpg"
+17,"Bishop's Hat Cactus","Astrophytum ornatum","Partial Sun","Dry soil","Low Humidity",1,Low,$$,Cactus,Cactus,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/bishopshatcactus.jpg"
+18,"Old Lady Cactus","Mammillaria hahniana","Partial Sun","Dry soil","Low Humidity",1,Low,$,Cactus,Cactus,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/oldladycactus.jpg"
+19,"Golden Barrel Cactus","Echi0cactus grusonii","Partial Sun","Dry soil","Low Humidity",1,Low,$,Cactus,Cactus,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/goldenbarrelcactus.jpg"
+20,"Angel's Wing Cactus","Opuntia microdasys","Partial Sun","Dry soil","Low Humidity",1,Low,$,Cactus,Cactus,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/angelswingcactus.jpg"
+21,"Zebra Plant","Aphelandra squarros","Partial Sun","Moist soil","High Humidity",0,High,$,Tropical,NULL,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/zebraplant.jpg"
+22,Inchplant,"Tradescantia zebrina","Partial Sun","Moist soil","Average Humidity",1,Low,$,NULL,NULL,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/inchplant.jpg"
+23,"Elephant Ear","Colocasia esculenta","Partial to Full Sun","Moist Soil","High Humidity",1,High,$$,Tropical,NULL,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/elephantear.jpg"
+25,"Superstar Croton","Codiaeum variegatum","Full Sun","Moist soil","High Humidity",1,High,$$,NULL,NULL,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/superstarcroton.jpg"
+26,Sage,"Salvia officinalis","Partial Sun","Allow soil to dry out between waterings","Average Humidity",0,Medium,$,Herb,Herb,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/sage.jpg"
+27,Rosemary,"Rosmainus officinalis","Full Sun","Dryer soil","Average Humidity",0,Medium,$,Herb,Herb,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/rosemary.jpg"
+28,"Fiddle Leaf Fig","Ficus lyrata","Full Sun","Allow soil to dry out between waterings","High Humidity",1,High,$$,Tropical,Tree,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/fiddlefigleaf.jpg"
+29,"Calathea Orbifolia","Calathea orbifolia","Bright Indirect Sun","Allow soil to partially dry out beween waterings","High Humidity",0,Medium,$$,NULL,Calathea,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/calatheaorbifolia.jpg"
+30,"Peacock Plant","Calathea makoyana","Bright Indirect Sun","Allow soil to partially dry out beween waterings","High Humidity",0,Medium,$$,NULL,Calathea,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/peacockplant.jpg"
+31,"Pinstripe Plant","Calathea ornata","Bright Indirect Sun","Allow soil to partially dry out beween waterings","High Humidity",0,Medium,$$,NULL,Calathea,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/pinstripeplant.jpg"
+32,"Rattlesnake Plant","Calathea lancifolia","Bright Indirect Sun","Allow soil to partially dry out beween waterings","High Humidity",0,Medium,$$,NULL,Calathea,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/rattlesnakeplant.jpg"
+33,"Phoenix Orchid","Caymbidium dayanum","Indirect Sun","Well drained soil","High Humidity",0,Medium,$$,Tropical,Flowering,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/phoenixorchid.jpg"
+34,"Moth Orchid","Phalae0psis amabilis","Indirect Sun","Well drained soil","High Humidity",0,Medium,$$,Tropical,Flowering,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/mothorchid.jpg"
+35,"String of Pearls","Senecia rowleyanus","Bright Indirect Sun","Dryer soil","Average Humidity",0,Low,$,Succulent,Succulent,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/stringofpearls.jpg"
+36,"Dutch Clover","Trifolium repens","Partial Sun","Well drained soil","Average Humiidity",0,Low,$,NULL,NULL,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/dutchclover.jpg"
+37,"Common Periwinkle","Vinca mi0r","Partial Sun","Mpost soil","Average Humidity",1,Medium,$$,NULL,Flowering,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/commonperiwinkle.jpg"
+38,"Asparagus Fern","Asparagus plumosus","Partial to Full Sun","Allow soil to dry out between waterings","High Humidity",1,Low,$,NULL,Fern,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/asparagusfern.jpg"
+39,"African violet","Streotocarpus ionanthus","Partial Sun","Moist but well drained soil","Average Humidity",0,Medium,$,NULL,Flowering,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/africanviolet.jpg"
+40,"Weeping Fig","Ficus benjamina","Bright Indirect Sun","Moist soil","High Humidity",1,High,$$,NULL,Tree,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/weepingfig.jpg"
+41,"Petra Croton","Codiaeum Variegatum","Full Sun","Moist soil","High Humidity",1,High,$$,NULL,NULL,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/petracroton.jpg"
+42,"Long Flower Kalanchoe","Kalanchoe longiflora","Bright Indirect Sun","Well drained dryer soil","Average Humidity",1,Low,$$,NULL,Flowering,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/longflower.jpg"
+43,"Garber Daisy","Gerbera jamesonii","Bright Indirect Sun","Allow soil to partially dry out between waterings","Average Humidity",0,Medium,$$,NULL,Flowering,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/garberdaisy.jpg"
+44,"Dwarf Azalea","Rhododendron atlanticum","Bright Indirect Sun","Moist well drained soil","Average Humidity",1,Medium,$,NULL,Flowering,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/dwarfazalea.jpg"
+45,Peppermint,"Mentha piperita","Indirect Sun","Moist soil","High HUmidity",1,Medium,$,NULL,Herb,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/peppermint.jpg"
+46,"Wax Begonia","Begonia cucullata","Full Sun","Allow soil to partially dry out between waterings","Low Humidity",1,Low,$,NULL,Flowering,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/waxbegonia.jpg"
+47,"Umbrella Plant","Schefflera arboricola","Indirect Sun","Allow soil to dry out between waterings","Average Humidity",1,Low,$,NULL,Tree,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/umbrellaplant.jpg"
+48,"Areca Palm","Dypsis lutescens","Bright Indirect Sun","Moist soil","High Humidity",0,High,$$,Tropical,Tree,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/arecapalm.jpg"
+49,"Bamboo Palm","Chamaedorea costaricana","Bright Indirect Sun","Moist soil","High Humidity",0,Medium,$$,NULL,NULL,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/bamboopalm.jpg"
+51,"Zanzibar Gem","Zamioculcas zamiifolia","Bright Indirect Sun","Allow soil to dry out between waterings","Average Humdity",1,Low,$$,NULL,Flowering,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/zanizibargem.jpg"
+52,"Juniper Bonsai","Juniperus chinensis","Partial Sun","Moist soil","High Humidity",1,High,$$,Bonsai,Bonsai,"https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/juniperbonsai.jpg"
+53,"Red Aglaonema","Aglaonema widuri","Bright Indirect Sun","Allow soil to dry out between waterings","Average Humidity",1,Medium,$$,NULL,Flowering,NULL
+54,"Money Plant","Pilea peperomioides","Bright Direct Sun","Allow soil to dry out between waterings","Average Humidity",0,Medium,$$,NULL,NULL,NULL
+55,"Bird of Paradise","Strelitzia reginae","Bright Direct Sun","Moist but well drained soil","Average Humidity",1,Medium,$$$,NULL,Tree,NULL
+56,"Yucca Cane Plant","Yucca guatamalensis","Partial Sun","Moist but well drained soil","Average Humidity",1,Medium,$$$,NULL,Tree,NULL
+58,"Crocodile fern","Microsorium musifolium","Indirect Sun","Allow soil to dry out between waterings","High Humidity",0,Low,$$,NULL,Fern,NULL
+59,Lavendar,"Lavandula angustifolia","Full Sun","Allow soil to partially dry out between waterings","Average Humidity",1,Medium,$$,Herb,Herb,NULL
