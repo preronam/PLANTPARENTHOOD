@@ -1,7 +1,7 @@
 PLANT PARENTHOOD - Find Your Perfect Plant Today!
 
 DEPLOYED WEBSITE LINK
-Link : https://plantparenthood2.herokuapp.com/
+ https://plantparenthood2.herokuapp.com/
 
 ABOUT: Plant Parenthood is an application that allows plant lovers to find the perfect plant.
 
