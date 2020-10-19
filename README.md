@@ -28,6 +28,7 @@ No installations are required to operate the app. The fully deployed application
 Link : https://plantparenthood2.herokuapp.com/
 
 RETROSPECTIVE 
+This application was developed in three phases. Phase 1 focused on server side operations including creating a database of plants and getting a response from the database based on query paramaters. Phase 2 involved working with node packages Passport.js and Cloudinary. Phase 3 focused on templating and styling using handlebars, flex-box, and Materialize. One of the challenges we encountered as team was working with handlebars and rendering search results to a page. We were able to discover an alternative solution which completed the core functionality of our app. We are working every day to improve the features and functionality of this application to give our users the best experience. 
 
 
 
