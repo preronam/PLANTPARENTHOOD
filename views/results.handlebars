@@ -3,14 +3,14 @@
     <div class="nav-wrapper container">
         <a id="logo-container" href="/" class="brand-logo white-text">PlantParenthood</a>
         <ul class="right hide-on-med-and-down">
-              <li><a href="./garden">Virtual Gardens</a></li>
+            <li><a href="./garden">Virtual Gardens</a></li>
             <li><a href="./search">Search for a Plant</a></li>
             <li><a href="./signup">Sign Up</a></li>
             <li><a href="./login">Login</a></li>
         </ul>
 
         <ul id="nav-mobile" class="sidenav nav-side">
-              <li><a href="./garden">Virtual Gardens</a></li>
+            <li><a href="./garden">Virtual Gardens</a></li>
             <li><a href="./search">Search for a Plant</a></li>
             <li><a href="./signup">Sign Up</a></li>
             <li><a href="./login">Login</a></li>
@@ -47,17 +47,17 @@
         <div class="col s12">
             <div class="card horizontal center-container">
                 <div class="card-image">
-                    <img src="https://res.cloudinary.com/dkwngklcx/image/upload/g_auto,f_auto/r_10,bo_5px_solid_black/v1602542385/plantParenthood/juniperbonsai.jpg">
+                    <img src="https://lorempixel.com/100/190/nature/6">
                 </div>
                 <div class="card-stacked">
                     <div class="card-content">
-                        <h1>Plant Name: {{Common-Name}}</h1>
-                        <h2>Scientific Name: {{Scientific-Name}}</h2>
-                        <p>Sun Needs: {{Sunlight-Needs}}</p>
-                        <p>Soil Moisture {{Moisture-Levels}}</p>
-                        <p>Is it toxic? {{Toxic}}</p>
-                        <p>Maintenance Level: {{Maintenance-Level}}</p>
-                       {{!-- <p>Price Range: {{Price}}</p> --}}
+                        <h5>Plant Name: {{this.dataValues.Common_Name}}</h5>
+                        <h6>Scientific Name: {{this.dataValues.Scientific_Name}}</h6>
+                        <p>Sun Needs: {{this.dataValues.Sunlight_Needs}}</p>
+                        <p>Soil Moisture {{this.dataValues.Moisture_Levels}}</p>
+                        <p>Is it toxic? {{this.dataValues.Poisonous}}</p>
+                        <p>Maintenance Level: {{this.dataValues.Maintenance_Level}}</p>
+
                     </div>
                 </div>
             </div>
