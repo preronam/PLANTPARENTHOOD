@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var plants = [];
+
     //When the form is submitted, the posts are done
     $(".search").on("submit", function (event) {
         event.preventDefault();
@@ -39,3 +39,6 @@ $(document).ready(function () {
         });
     });
 });
+
+
+

@@ -20,9 +20,9 @@ module.exports = function (app) {
     res.render(path.join(__dirname, "../views/partials/search"));
   });
 
-  // app.get("/results", (req, res) => {
-  //   res.render(path.join(__dirname, "../views/results"));
-  // });
+  app.get("/results", (req, res) => {
+    res.render(path.join(__dirname, "../views/results"));
+  });
 
   app.get("/login", (req, res) => {
     if (req.profile) {
