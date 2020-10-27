@@ -7,16 +7,18 @@ $(document).ready(function () {
         var sunlight = $('#sun').val();
         var humidity = $('#humidity').val();
         var maintenance = $('#maintenance').val();
-        // var price = $('#price').val();
+        var type = $('#plant').val();
         var poison = $('#pets').val();
 
-        const url = `/api/plants?sunlight=${sunlight}&humidity=${humidity}&maintenance=${maintenance}&poison=${poison}`
+         const url = `/api/plants?sunlight=${sunlight}&humidity=${humidity}&maintenance=${maintenance}&poison=${poison}`;
+
         $.ajax({
             type: "GET",
             url: url
         }).then(function (response) {
             $("#results-card").empty();
             let html = "";
+            console.log(response);
             response.forEach(plant => {
                 html = `  
                 <ul>
@@ -28,23 +30,12 @@ $(document).ready(function () {
                 <li id="poison">Toxic: ${plant.Poisonous}</li>
                 <li id="maintain">Maintenance Level: ${plant.Maintenance_Level}</li>
                 <li id="price">Price Range: ${plant.Price}</li>
+               <img src="${plant.img_path}" >
+ 
                 </ul>`;
+                $('#results-card').append(html);
+
             });
-            $('#results-card').append(html);
-
         });
-
     });
-
 });
-
-
-
-
-
-
-
-
-
-
-
