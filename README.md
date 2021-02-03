@@ -9,8 +9,11 @@ WHAT MAKES PLANT PARENTHOOD UNIQUE: Plant Parenthood is a platform that works fo
 
 FEATURES
 1) Provides a custom search that allows the user to find a plant that fits their lifestyle
+![alt text](https://github.com/[preronam]/[PLANTPARENTHOOD]/blob/[main]/Search.png?raw=true)
+
 2) Allows the user to browse virtual gardens to explore new plants
-3) Offers a user profile which allows the user to save their favorite plants 
+![alt text](https://github.com/[preronam]/[PLANTPARENTHOOD]/blob/[main]/Gardens.png?raw=true)
+
 
 TECHNOLOGY USED 
 1) jQuery as the programming language
